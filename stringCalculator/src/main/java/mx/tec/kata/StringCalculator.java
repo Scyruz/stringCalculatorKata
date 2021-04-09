@@ -9,7 +9,7 @@ public class StringCalculator {
 		} 
 		else 
 		{
-			String[] splitNumbers = numbers.split(",");
+			String[] splitNumbers = numbers.split("\\n|,");
 			
 			int sum = 0;
 
